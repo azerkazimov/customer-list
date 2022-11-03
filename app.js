@@ -1,54 +1,54 @@
-// let items = ["JavaScript", 1, "a", 3];
+let items = ["JavaScript", 1, "a", 3];
 
-// // returns a string with elements of the array separated by commas
-// let itemsString = items.toString();
-// console.log(itemsString); // JavaScript,1,a,3
+// returns a string with elements of the array separated by commas
+let itemsString = items.toString();
+console.log(itemsString); // JavaScript,1,a,3
 
-// // ===============================================================
+// ===============================================================
 
-// let numberFloor = 38.8;
+let numberFloor = 38.8;
 
-// // round number to nearest smallest number
-// let roundedFloorNumber = Math.floor(numberFloor);
+// round number to nearest smallest number
+let roundedFloorNumber = Math.floor(numberFloor);
 
-// // ===============================================================
+// ===============================================================
 
-// let numberRound = 3.87;
+let numberRound = 3.87;
 
-// // round the number to nearest integer
-// let roundedNumber = Math.round(numberRound);
+// round the number to nearest integer
+let roundedNumber = Math.round(numberRound);
 
-// // ===============================================================
+// ===============================================================
 
-// let sentence = "JavaScript";
+let sentence = "JavaScript";
 
-// // returns number of characters in the sentence string
-// let len = sentence.length;
+// returns number of characters in the sentence string
+let len = sentence.length;
 
-// // ===============================================================
+// ===============================================================
 
-// const string = "Hello World!";
+const string = "Hello World!";
 
-// // finding character at index 1
-// let index1 = string.charAt(1);
+// finding character at index 1
+let index1 = string.charAt(1);
 
-// console.log("Character at index 1 is " + index1); // Character at index 1 is e
+console.log("Character at index 1 is " + index1); // Character at index 1 is e
 
-// // ===============================================================
+// ===============================================================
 
-// const message = "JavaScript is fun";
+const message = "JavaScript is fun";
 
-// // check if message includes the string "Java"
-// let result = message.includes("Java");
-// console.log(result); // Output: true
+// check if message includes the string "Java"
+let result = message.includes("Java");
+console.log(result); // Output: true
 
-// // ===============================================================
+// ===============================================================
 
-// let emptyString = "";
+let emptyString = "";
 
-// // joint arguments string
-// let joinedString = emptyString.concat("JavaScript", " is", " fun.");
-// console.log(joinedString); // JavaScript is fun.
+// joint arguments string
+let joinedString = emptyString.concat("JavaScript", " is", " fun.");
+console.log(joinedString); // JavaScript is fun.
 
 // ===============================================================
 
