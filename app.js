@@ -116,6 +116,13 @@ console.table(custumerList);
 let getFirstCustommer = custumerList.shift();
 console.log(getFirstCustommer);
 
+// ===== Return Engine Problemm customer ======
+
+let engine = custumerList.filter(obj => {
+	return obj.problem == "Engine";
+});
+console.log(engine);
+
 
 
 
