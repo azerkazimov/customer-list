@@ -107,6 +107,15 @@ custumerList.push({
   problem: "Engine",
 });
 
+let getLastCustorper = custumerList.pop();
+console.log(getLastCustorper);
+
+custumerList.unshift(getLastCustorper);
+console.table(custumerList);
+
+let getFirstCustommer = custumerList.shift();
+console.log(getFirstCustommer);
+
 
 
 
